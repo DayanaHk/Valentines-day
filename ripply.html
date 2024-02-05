@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day Invitation</title>
+    <style>
+        body {
+            background-color: lightblue;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            text-align: center;
+        }
+        h1, h2 {
+            font-style: italic;
+            color: #800080; /* Purple color for a romantic touch */
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .box {
+            width: 200px;
+            height: 100px;
+            line-height: 100px;
+            border-radius: 10px;
+            margin: 0 20px;
+            cursor: pointer;
+        }
+        .pink {
+            background-color: pink;
+        }
+        .red {
+            background-color: red;
+        }
+        /* Additional CSS for response screens */
+        #screen2, #screen3 {
+            display: none;
+        }
+        #screen2, #screen3 {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Screen 1: Initial invitation screen -->
+    <div id="screen1">
+        <h1>Hii Ripply, my ex tubby, and hopefully my future one as well ._. .. I've been a bit selfish lately I know, but I'm trying to make it better. Would you be my Valentine's Day date?</h1>
+        <div class="container">
+             <img src="cat.gif" alt="Cute Cat GIF">
+            <div class="box pink" id="yesBox">Yes</div>
+            <div class="box red" id="convinceBox">Hmm, not sure</div>
+        </div>
+    </div>
+
+    <!-- Screen 2: Response screen for "Yes" -->
+    <div id="screen2">
+        <h2>Yay! Can't wait to spend Valentine's Day with you!</h2>
+        <img src="hug.gif" alt="hug GIF">
+        <img src="happy.gif" alt="happy GIF">
+    </div>
+
+    <!-- Screen 3: Response screen for "Hmm, not sure" -->
+    <div id="screen3">
+        <h2>You have no choice, you can't say no bitch.. *Evil Laugh*</h2>
+        <img src="angry.gif" alt="Angry Cat GIF">
+    </div>
+
+    < <<script>
+    // Get references to the boxes and screens
+    const yesBox = document.getElementById('yesBox');
+    const convinceBox = document.getElementById('convinceBox');
+    const screen1 = document.getElementById('screen1');
+    const screen2 = document.getElementById('screen2');
+    const screen3 = document.getElementById('screen3');
+
+    // Event listeners for box clicks
+    yesBox.addEventListener('click', () => {
+        screen1.style.display = 'none';
+        screen2.style.display = 'block';
+    });
+
+    convinceBox.addEventListener('click', () => {
+        screen1.style.display = 'none';
+        screen3.style.display = 'block';
+    });
+</script>
+>
+    <script>
+        // JavaScript code to handle box clicks and toggle between screens
+    </script>
+</body>
+</html>
+>
+    <script>
+        // JavaScript code to handle box clicks and toggle between screens
+    </script>
+</body>
+</html>
+
+
+   
